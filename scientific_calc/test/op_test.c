@@ -3,7 +3,7 @@
 
 /* Modify these two lines according to the project */
 #include <op_header.h>
-#define PROJECT_NAME    "scientific_calc"
+#define PROJECT_NAME "scientific_calc"
 
 /* Prototypes for all the test functions */
 void test_add(void);
