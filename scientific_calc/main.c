@@ -121,16 +121,7 @@ void calculator_menu(void)
             __fpurge(stdin);
             getchar();
             break;
-        case HIGHER_ROOT:
-            result_float=Higher_root(calculator_operand1, calculator_operand2);
-            printf("\n\t%lf root of %lf = %lf\nEnter to continue", 
-            calculator_operand1, 
-            calculator_operand2,
-            result_float);
-            
-            __fpurge(stdin);
-            getchar();
-            break;            
+                
         case LOGARITHM:
             result_float=logarithm(calculator_operand1);
             printf("\n\tlog10 of %lf = %lf\nEnter to continue", 
@@ -194,15 +185,7 @@ void calculator_menu(void)
             __fpurge(stdin);
             getchar();
             break;
-        case CUBE_ROOT:
-            result_float=cube_root(calculator_operand1);
-            printf("\n\t cube root of %lf = %lf\nEnter to continue", 
-            calculator_operand1, 
-            result_float);
-            
-            __fpurge(stdin);
-            getchar();
-            break;
+          
          case INVERSE:
             result_float=inverse(calculator_operand1);
             printf("\n\t inverse of %lf = %lf\nEnter to continue", 
