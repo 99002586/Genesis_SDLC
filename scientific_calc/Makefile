@@ -6,10 +6,10 @@ BUILD = build
 
 # All source code files
 SRC = main.c\
-src/scientific_calc.c\
+src/op_func.c\
 
 # All test source files
-TEST_SRC = src/scientific_calc.c\
+TEST_SRC = src/op_func.c\
 test/op_test.c
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
